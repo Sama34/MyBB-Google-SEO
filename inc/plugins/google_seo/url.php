@@ -1136,7 +1136,7 @@ function google_seo_url_dynamic($url='')
         $url = google_seo_dynamic($_SERVER['REQUEST_URI']);
     }
 
-    return $url;
+    return (string)$url;
 }
 
 /**
